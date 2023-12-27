@@ -41,6 +41,8 @@ function Close()
 end
 
 exports("Show", Show)
+exports("Close", Close)
+
 
 RegisterCommand('open', function(source, args, rawCommand)
     if #args < 2 then
